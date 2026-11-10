@@ -8,7 +8,7 @@ Although RDKit provides a convenient API for generating fingerprints, many of th
 
 This implementation was built as a way to follow the process step by step, from Atom Invariant generation and Neighborhood expansion to Morgan Identifier calculation and BitInfoMap construction.
 
-It is a personal learning project and is intended for understanding the algorithm rather than for production use.
+It is a personal learning implementation and is intended for understanding the algorithm rather than for production use.
 
 ## Why I Built This
 
