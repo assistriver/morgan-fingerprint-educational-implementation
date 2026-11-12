@@ -14,11 +14,11 @@ It is a personal learning implementation and is intended for understanding the a
 
 While learning about Morgan Fingerprints, I became curious about questions such as:
 
-- How are Atom Invariants generated?
-- How are Neighborhoods expanded?
-- How are Morgan Identifiers calculated?
-- How are redundant local environments removed?
-- How is the BitInfoMap constructed?
+* How are Atom Invariants generated?
+* How are Neighborhoods expanded?
+* How are Morgan Identifiers calculated?
+* How are redundant local environments removed?
+* How is the BitInfoMap constructed?
 
 Reading papers and source code helped, but implementing the algorithm myself turned out to be one of the best ways to understand what was happening internally.
 
@@ -28,20 +28,20 @@ To make the fingerprint generation process easier to understand, intermediate re
 
 For example, the following information can be inspected:
 
-- Atom Components
-- Atom Invariants
-- Bond Invariants
-- Morgan Identifiers
-- Neighborhood Environments
-- Environment Bitsets
-- BitInfoMap
+* Atom Components
+* Atom Invariants
+* Bond Invariants
+* Morgan Identifiers
+* Neighborhood Environments
+* Environment Bitsets
+* BitInfoMap
 
 Results are also preserved for each radius:
 
-- radius = 0
-- radius = 1
-- radius = 2
-- radius = 3
+* radius = 0
+* radius = 1
+* radius = 2
+* radius = 3
 
 This makes it possible to observe how atomic environments evolve during fingerprint generation.
 
@@ -49,28 +49,26 @@ I hope it may be useful to others who are interested in understanding how Morgan
 
 ## Relationship to RDKit
 
-This implementation was developed while studying the RDKit source code.
+This implementation was developed with reference to the RDKit source code, while the code itself was independently written in Python to make the internal processing easier to follow.
 
-The goal is to better understand the Morgan Fingerprint algorithm and its internal processing steps. It is not intended to be a complete port or replacement for RDKit.
-
-All code has been written independently in Python.
+The goal of this project is to understand the algorithms and internal workings of Morgan Fingerprints. It is not intended to be a complete reimplementation or a replacement for RDKit.
 
 ## Limitations
 
 This implementation prioritizes readability and learning over:
 
-- Execution speed
-- Memory efficiency
-- Production-level performance
-- Full compatibility with RDKit
+* Execution speed
+* Memory efficiency
+* Production-level performance
+* Full compatibility with RDKit
 
 For practical cheminformatics applications, RDKit is generally the recommended choice.
 
 ## Environment
 
-- Python 3.10.18
-- RDKit 2025.03.5
-- Pandas 2.3.1
+* Python 3.10.18
+* RDKit 2025.03.5
+* Pandas 2.3.1
 
 ## References
 
