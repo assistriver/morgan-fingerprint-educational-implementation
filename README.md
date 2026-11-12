@@ -35,7 +35,6 @@ Morgan Fingerprint について調べていると、
 - Bond Invariants
 - Morgan Identifiers
 - Neighborhood Environments
-- Environment Bitsets
 - BitInfoMap
 
 また、各 radius ごとの結果を保存しているため、

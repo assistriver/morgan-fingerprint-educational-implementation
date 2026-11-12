@@ -33,7 +33,6 @@ For example, the following information can be inspected:
 - Bond Invariants
 - Morgan Identifiers
 - Neighborhood Environments
-- Environment Bitsets
 - BitInfoMap
 
 Results are also preserved for each radius:
