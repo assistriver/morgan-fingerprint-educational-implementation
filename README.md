@@ -73,9 +73,11 @@ Fingerprint が最終的に生成されるまでの流れを追いながら理�
 
 ## 参考文献
 
-### Morgan Algorithm
+### Morgan Fingerprint
 
-Morgan, H. L. "The Generation of a Unique Machine Description for Chemical Structures" Journal of Chemical Documentation, 5, 107–113 (1965)
+H. L. Morgan "The Generation of a Unique Machine Description for Chemical Structures" J.Chem.Doc., 5, 107–113 (1965)
+
+David Rogers and Mathew Hahn "Extended-Connectivity Fingerprints" J.Chem.Inf.Model, 50, 742-754 (2010)
 
 ### RDKit
 
